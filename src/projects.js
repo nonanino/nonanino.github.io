@@ -10,22 +10,27 @@ categories.addEventListener('click', (event)=> {
         return;
     }
 
-    // Active 메뉴를 재설정
-    const active = document.querySelector('.category--selected');
-    active.classList.remove('category--selected');
-    event.target.classList.add('category--selected');
+    handleActiveSelection(event.target);
+    filterProjects(filter);
 
-    // 프로젝트 필터링
-    projectsContainer.classList.add('anim-out')
-    projects.forEach((project) => {
-        console.log(project.dataset.type);
-        if(filter === 'all' || filter === project.dataset.type) {
-            project.style.display = 'block';
-        } else {
-            project.style.display = 'none';
-        }
-    });
-    setTimeout(()=>{
-    projectsContainer.classList.remove('anim-out')
-    }, 250)
-})
+});
+
+function handleActiveSelection(target){
+        const active = document.querySelector('.category--selected');
+        active.classList.remove('category--selected');
+        target.classList.add('category--selected');
+}
+
+function filterProjects(filter){
+        projects.forEach((project) => {
+            if(filter === 'all' || filter === project.dataset.type) {
+                project.style.display = 'block';
+            } else {
+                project.style.display = 'none';
+            }
+        });
+        projectsContainer.classList.add('anim-out')
+        setTimeout(() => {
+        projectsContainer.classList.remove('anim-out')
+        }, 250);
+}
