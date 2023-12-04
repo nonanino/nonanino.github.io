@@ -7,6 +7,12 @@
     --color-accent-variant: var(--color-orange);
     --color-text: var(--color-white);
 
+    /* Background */
+    --home-bg-gradient: linear-gradient(
+        180deg,
+         rgba(8,26,60,1) 0%,
+         rgba(5,10,19,1) 100%);
+
     /* Colors */
     --color-white: #ffffff;
     --color-black: #050a13;
@@ -145,12 +151,36 @@ button:focus{
 
 /* Home */
 #Home{
+    position: relative;
     background-color: var(--color-primary);
+    background: var(--home-bg-gradient);
+    /* background-image: url(/images/og.webp); */
     color: var(--color-text);
     padding: 5rem 1rem;
     padding-top: 7rem;
     text-align: center;
 }
+
+/* .home__divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.home__divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 73px;
+}
+
+.home__divider .shape-fill {
+    fill: #FFFFFF;
+} */
 
 .home__avatar{
     width: 200px;
