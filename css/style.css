@@ -22,6 +22,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open sans', 'sans-serif';
     margin: 0;
@@ -140,7 +144,7 @@ button:focus{
 }
 
 /* Home */
-#home{
+#Home{
     background-color: var(--color-primary);
     color: var(--color-text);
     padding: 5rem 1rem;
@@ -526,7 +530,7 @@ button:focus{
         font-size: 1rem;
     }
 
-    #home{
+    #Home{
         padding-bottom: 3rem;
     }
 
