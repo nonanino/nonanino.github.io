@@ -18,7 +18,7 @@
     --color-black: #050a13;
     --color-blue: #03e8f9;
     --color-orange: #fd6413;
-    --color-gray: #1b1e26;
+    --color-gray: #22252e;
 
     /* size */
     --size-max-width: 1200px;
@@ -33,12 +33,16 @@ html{
 }
 
 body{
-    font-family: 'Open sans', 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
     margin: 0;
 }
 
 h1, h2, h3, p, ul{
     margin: 0;
+}
+
+p{
+    line-height: 1.8rem;
 }
 
 ul{
@@ -102,7 +106,7 @@ button:focus{
     color: var(--color-white);
     font-size: 1.5rem;
     position: absolute;
-    top: 1.3rem;
+    top: 0.8rem;
     right: 1rem;
 }
 
@@ -125,8 +129,8 @@ button:focus{
 }
 
 .header__logo__title{
-    font-size: 1.6rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .header__menu{
@@ -138,6 +142,7 @@ button:focus{
     display: block;
     padding: 8px 16px;
     border: 1px solid transparent;
+    color: var(--color-text);
 }
 
 .header__menu__item:hover{
@@ -153,11 +158,11 @@ button:focus{
 #Home{
     position: relative;
     background-color: var(--color-primary);
-    background: var(--home-bg-gradient);
-    /* background-image: url(/images/og.webp); */
+    background: black;
+    /* background-image: url(/images/unnamed.png); */
     color: var(--color-text);
-    padding: 5rem 1rem;
-    padding-top: 7rem;
+    padding: 8rem 1rem;
+    padding-top: 4rem;
     text-align: center;
 }
 
@@ -186,12 +191,12 @@ button:focus{
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 3px solid var(--color-accent);
+    /* border: 3px solid var(--color-accent); */
     border-radius: 100%;
 }
 
 .home__title{
-    font-size: 2rem;
+    font-size: 8rem;
     margin-bottom: 1rem;
 }
 
@@ -200,8 +205,9 @@ button:focus{
 }
 
 .home__description{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 2rem;
+    font-weight: 400;
 }
 
 .home__concact{
@@ -236,11 +242,11 @@ button:focus{
     border-radius: 1rem;
     cursor: default;
     box-shadow: 0 8px 30px rgb(0,0,0,0.12);
-    width: 400px;
+    width: 340px;
 }
 
 .major__icon{
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1rem 0;
     color: var(--color-accent);
     transition: all 300ms ease;
@@ -257,11 +263,12 @@ button:focus{
 }
 
 .jobs{
-    text-align: start;
+    text-align: center;
+    /* padding-left: 2.6rem; */
 }
 
 .job{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     gap: 8px;
     margin-bottom: 1rem;
@@ -269,11 +276,13 @@ button:focus{
 
 .job__name{
     color: var(--color-primary);
+    font-family: open Sans;
 }
 
 .job__period{
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     font-size: 0.8rem;
+    padding-bottom: 1rem;
 }
 
 /* skills */
@@ -306,13 +315,13 @@ button:focus{
 .skills__tools{
     padding: 1rem;
     background-color: var(--color-primary);
-    filter: brightness(130%);
+    filter: brightness(160%);
 }
 
 .skills__etc{
     padding: 1rem;
     background-color: var(--color-primary);
-    filter: brightness(160%);
+    filter: brightness(190%);
 }
 
 .bar{
@@ -446,7 +455,7 @@ button:focus{
 }
 
 /* testimonial */
-.testimonials{
+/* .testimonials{
     margin: 3rem;
 }
 
@@ -478,31 +487,35 @@ button:focus{
     color: var(--color-accent);
     font-weight: bold;
     filter: brightness(70%);
-}
+} */
 
 
 /* arrow up */
 
 .arrow-up{
-    background-color: var(--color-primary);
+    background-color: var(--color-gray);
     position: fixed;
     bottom: 3rem;
     right: 3rem;
     font-size: 3rem;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 100%;
     text-align: center;
-    box-shadow: 5px 5px 0px 0px var(--color-accent);
+    /* box-shadow: rgba(7, 65, 210, 0.1) 0px 9px 30px */
     transition: opacity 300ms ease-in;
 }
 
 /* footer */
 #Contact{
     background-color: var(--color-primary);
-    color: var(--color-text);
+    color: var(--color-blue);
 }
 
+.profile{
+    width: 8rem;
+    height: 11rem;
+}
 
 .contact__links{
     display: flex;
@@ -512,13 +525,36 @@ button:focus{
     font-size: 2rem;
 }
 
-.contact__link{
+/* .contact__link{
     transition: color 250ms ease-in;
 }
 
 .contact__link:hover{
     color: var(--color-accent);
+} */
+
+.description__icon{
+    font-size: 1.2rem;
+    padding: 2rem;
+    color: var(--color-text);
+    margin-top: 30px;
 }
+
+.icon{
+    margin-bottom: 0.5rem;
+}
+
+.contact{
+    margin-left: 0.5rem;
+}
+
+.contact__Rights{
+    line-height: 1.6rem;
+    color: rgb(133, 133, 133);
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
 
 @media screen and (max-width: 768px) {
     
@@ -558,6 +594,7 @@ button:focus{
 
     .description{
         font-size: 1rem;
+        margin-bottom: 3rem;
     }
 
     #Home{

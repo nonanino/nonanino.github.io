@@ -14,9 +14,9 @@
     <meta property="og:url" content="https://nonanino.github.io/portfolio/" />
     <meta property="og:image" content="https://nonanino.github.io/portfolio/images/og.webp" />
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/4c393308c3.js" crossorigin="anonymous"></script>
     <!-- CSS -->
@@ -32,8 +32,8 @@
     <!-- Header -->
     <header class="header">
         <div class="header__logo">
-            <img class="header__logo__img" src="images/favicon.ico" alt="logo">
-            <h1 class="header__logo__title"><a href="#">Rho YounJi</a></h1>
+            <!-- <img class="header__logo__img" src="images/favicon.ico" alt="logo"> -->
+            <h1 class="header__logo__title"><a href="#">Rho, Youn-Ji</a></h1>
         </div>
         <nav class="header__nav">
             <ul class="header__menu">
@@ -41,12 +41,13 @@
                 <li><a class="header__menu__item" href="#About">ABOUT</a></li>
                 <li><a class="header__menu__item" href="#Skill">SKILLS</a></li>
                 <li><a class="header__menu__item" href="#Work">MY WORK</a></li>
-                <li><a class="header__menu__item" href="#Testimonial">Testimonial</a></li>
+                <!-- <li><a class="header__menu__item" href="#Testimonial">Testimonial</a></li> -->
                 <li><a class="header__menu__item" href="#Contact">CONTACT</a></li>
             </ul>
         </nav>
         <button class="header__toggle" aria-label="navigation menu toggle">
-            <i class="fa-solid fa-bars"></i>
+            <img src="images/toggle.png">
+            <!-- <i class="fa-solid fa-bars"></i> -->
         </button>
     </header>
     <!-- Main -->
@@ -54,12 +55,11 @@
         <!-- Home -->
         <section id="Home">
             <div class="home__container">
-                <img class="home__avatar" src="images/profile.jpg" alt="Younji's profile">
-                <h2 class="home__title"><br> 안녕하세요.
-                    <br><strong class="home__title--strong">디자이너 노윤지입니다.</strong>
+                <!-- <img class="home__avatar" src="images/profile.jpg" alt="Younji's profile"> -->
+                <h2 class="home__title"><br> PORT-  
+                    <br><strong class="home__title--strong">FOLIO</strong>
                 </h2>
-                <p class="home__description">2014년부터 현재까지 저는 편집, 웹, UI/UX 디자이너로서 다양한 스타일의 디자인과 아이디어를 탐구해 왔습니다.
-                </p>
+                <p class="home__description">안녕하세요! 디자이너 노윤지입니다.</p>
                 <a class="home__concact" href="#Contact">Contact me</a>
             </div>
             <!-- <div class="home__divider">
@@ -71,10 +71,11 @@
         <!-- About -->
         <section id="About" class="section max-container">
             <h2 class="title">About me</h2>
-            <p class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quam aspernatur, magnam soluta suscipit dignissimos reiciendis consectetur consequatur.
-                Aliquid ullam iure quisquam animi, possimus corporis excepturi ea quam dolorem itaque unde.</p>
+            <p class="description">Editorial & Web & Mobile Designer</p>
+            <p>
+                최신 트렌드와 기술을 학습하고 적용하며 공감할 수 있는 실용적인 디자인을 설계하는 것을 목표로 삼고 있습니다.
+                <br>현재의 위치에 만족하지 않고 열정을 가진 디자이너로 매일 성장하고자 노력하고 있습니다.
+            </p>
             <ul class="majors">
                 <li class="major">
                     <i class="fa-solid fa-book major__icon"></i>
@@ -94,7 +95,27 @@
             </ul>
             <ul class="jobs">
                 <li class="job">
-                    <img src="images/jobs/google.png" alt="goole logo">
+                    <div>
+                        <p class="job__name"><strong>더존비즈온</strong> 헬스케어솔루션사업본부 주임연구원</p>
+                        <p class="job__period">2022. 09. ~ 2023. 08.</p>
+                     </div>
+                     <div>
+                        <p class="job__name"><strong>인공지능 아크릴</strong> 플랫폼 UX/UI팀</p>
+                        <p class="job__period">2021. 05. ~ 2022. 09.</p>
+                     </div>
+                     <div>
+                        <p class="job__name"><strong>만나플래닛</strong> UX/UI 디자인실</p>
+                        <p class="job__period">2020. 06. ~ 2021. 05.</p>
+                     </div>
+                     <div>
+                        <p class="job__name"><strong>삼영디엔피</strong> 디자인팀 대리</p>
+                        <p class="job__period">2017. 02. ~ 2020. 02.</p>
+                     </div>
+                     <div>
+                        <p class="job__name"><strong>크리커뮤니케이션</strong> 디자인팀 대리</p>
+                        <p class="job__period">2014. 07. ~ 2017. 01.</p>
+                     </div>
+                    <!-- <img src="images/jobs/google.png" alt="goole logo">
                   <div>
                     <p class="job__name">더존비즈온</p>
                     <p class="job__period">2022. 07</p>
@@ -105,7 +126,7 @@
                     <div>
                         <p class="job__name">인공지능 아크릴</p>
                         <p class="job__period">2022. 07</p>
-                    </div>
+                    </div> -->
                 </li>
             </ul>
         </section>
@@ -115,9 +136,7 @@
             <h2 class="title">My Skills</h2>
             <p class="description">Skill & Attributes</p>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Exercitationem est repellendus illum, aut nulla non quam ab omnis eligendi quas ex deserunt unde quibusdam quia magni.
-                Deserunt delectus optio quam?
+                편집, 웹, 앱 디자인 등 다양한 분야에서 스킬과 경험을 가지고 있습니다.
             </p>
             <div class="skills">
                 <section class="skills__design">
@@ -153,6 +172,8 @@
                         <li>Abobe Photoshop</li>
                         <li>Abobe Illustrator</li>
                         <li>Abobe Indesign</li>
+                        <li>Zeplin</li>
+
                     </ul>
                 </section>
                 <section class="skills__etc">
@@ -160,7 +181,7 @@
                     <ul>
                         <li>Powerpoint</li>
                         <li>Excel</li>
-                        <li>Listning</li>
+                        <li>Word</li>
                     </ul>
                 </section>
             </div>
@@ -238,7 +259,7 @@
             </div>
         </section>
         <!-- Testimonials -->
-        <section id="Testimonial" class="section max-container">
+        <!-- <section id="Testimonial" class="section max-container">
             <h2 class="title">Testimonial</h2>
             <p class="description">See what they say about me</p>
             <ul class="testimonials">
@@ -276,28 +297,44 @@
                     </div>
                 </li>
             </ul> 
-        </section>
+        </section> -->
         <!-- Arrow up-->
         <aside>
             <a class="arrow-up" href="#Home" title="back to top">
-                <i class="fa-solid fa-arrow-up"></i>
+                <img src="images/arrowup.png">
+                <!-- <i class="fa-solid fa-arrow-up"></i> -->
             </a>
         </aside>
     </main>
     <!-- Footer -->
     <footer id="Contact" class="section">
        <dir class="max-container">
-        <h2 class="title">Let's talk</h2>
-        <p class="description">nonanino89@gmail.com</p>
-        <ul class="contact__links">
-            <li>
-                <a class="contact__link" href="nonanino89@gmail.com" target="_blank" title="my email adress"><i class="fa-solid fa-envelope"></i></a>
+        <h2 class="title">Contact</h2>
+        <ul class="description__icon">
+            <li class="icon">
+                <img class="profile" src="images/profile_1.png">
             </li>
-            <li>
-                <a class="contact__link" href="nonanino89@gmail.com" target="_blank" title="my email adress"><i class="fa-solid fa-envelope"></i></a>
+            <li class="icon">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="contact">nonanino89@gmail.com</a></span>
+            </li>
+            <li class="icon">
+                <i class="fa-solid fa-phone"></i>
+                <span class="contact">010.8921.8244</span>
             </li>
         </ul>
-        <p>Rhoyounji - All rights reserved</p>
+        <!-- <p class="description"><i class="fa-solid fa-envelope"></i>nonanino89@gmail.com</p>
+        <p class="description"><i class="fa-solid fa-phone"></i>010.8921.8244</p> -->
+        <!-- <ul class="contact__links">
+            <li>
+                <a class="contact__link" href="nonanino89@gmail.com" target="_blank" title="my email adress"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+            <li>
+                <a class="contact__link" href="nonanino89@gmail.com" target="_blank" title="my email adress"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+        </ul> -->
+        <p class="contact__Rights">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
+            © 2023 Rho, Youn-ji. All Rights Reserved.</p>
        </dir>
     </footer>
 </body>
