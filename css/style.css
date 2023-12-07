@@ -402,7 +402,7 @@ button:focus{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 1.4rem;
     transition: all 250ms ease-out;
 }
 
