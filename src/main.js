@@ -49,5 +49,88 @@ function show () {
     document.querySelector(".background").className = "background";
   }
   
-  document.querySelector("#show").addEventListener('click', show);
-  document.querySelector("#close").addEventListener('click', close);
+//   document.querySelector("#show").addEventListener('click', show);
+//   document.querySelector("#close").addEventListener('click', close);
+
+  const openPopup = () => {
+    const popup_back = document.getElementById('popup_back');
+    popup_back.style.display = 'block';
+    const body = document.getElementsByTagName('body')[0];
+    body.classList.add('stop_scroll')
+}
+
+const closePopup = () => {
+    const popup_back = document.getElementById('popup_back');
+    popup_back.style.display = 'none';
+    const body = document.getElementsByTagName('body')[0];
+    body.classList.remove('stop_scroll')
+}
+
+window.onload = () => {
+    const popup_back = document.getElementById('popup_back');
+    popup_back.addEventListener('click', () => {
+        console.log('back')
+        closePopup();
+    })
+    const popup_content = document.getElementById('popup_content');
+    popup_content.addEventListener('click', (e) => {
+        console.log('contents')
+        e.stopPropagation();
+        // closePopup();
+    })
+
+    const close_btn = document.getElementById('close_button');
+    close_btn.addEventListener('click', () => {
+        closePopup();
+    })
+
+    const project_1 = document.getElementById('project_1');
+    project_1.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/sample.png'
+        openPopup();
+    })
+
+    const project_2 = document.getElementById('project_2');
+    project_2.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/sample2.png'
+        openPopup();
+    })
+    const project_3 = document.getElementById('project_3');
+    project_3.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/sample.png'
+        openPopup();
+    })
+    const project_4 = document.getElementById('project_4');
+    project_4.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/sample.png'
+        openPopup();
+    })
+    const project_5 = document.getElementById('project_5');
+    project_5.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/sample.png'
+        openPopup();
+    })
+    const project_6 = document.getElementById('project_6');
+    project_6.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/sample.png'
+        openPopup();
+    })
+    const project_7 = document.getElementById('project_7');
+    project_7.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/sample.png'
+        openPopup();
+    })
+    const project_8 = document.getElementById('project_8');
+    project_8.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/sample.png'
+        openPopup();
+    })
+}
