@@ -678,14 +678,17 @@ button:focus{
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
-    align-items: center;
+    /* align-items: center; */
     position: relative;
+    justify-content: flex-end;
 }
 
 .popup_image {
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
     height:auto;
+    top: 0;
+    left: 0;
     /* height: 100%; */
     /* object-fit: none; */
 }
@@ -695,7 +698,7 @@ button:focus{
 }
 
 .close_btn{
-    position: absolute;
+    position: sticky;
     background-image: url('../images/close.png');
     width: 50px;
     height: 50px;
@@ -705,4 +708,5 @@ button:focus{
     top: 10px;
     right: 10px;
     cursor: pointer;
+    z-index: 1;
 }
