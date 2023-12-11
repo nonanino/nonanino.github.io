@@ -87,50 +87,50 @@ window.onload = () => {
     const project_1 = document.getElementById('project_1');
     project_1.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'
+        popup.src = 'images/sample.png'        // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
 
     const project_2 = document.getElementById('project_2');
     project_2.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample2.png'
+            popup.src = 'images/sample2.png'    // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
     const project_3 = document.getElementById('project_3');
     project_3.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'
+        popup.src = 'images/sample.png'         // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
     const project_4 = document.getElementById('project_4');
     project_4.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'
+        popup.src = 'images/sample.png'         // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
     const project_5 = document.getElementById('project_5');
     project_5.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'
+        popup.src = 'images/sample.png'         // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
     const project_6 = document.getElementById('project_6');
     project_6.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'
+        popup.src = 'images/sample.png'         // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
     const project_7 = document.getElementById('project_7');
     project_7.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'
+        popup.src = 'images/sample.png'         // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
     const project_8 = document.getElementById('project_8');
     project_8.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'
+        popup.src = 'images/sample.png'         // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
 }
