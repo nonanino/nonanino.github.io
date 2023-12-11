@@ -55,6 +55,10 @@ function show () {
   const openPopup = () => {
     const popup_back = document.getElementById('popup_back');
     popup_back.style.display = 'block';
+    const popup = document.getElementById('popup_img');
+    setTimeout(()=>{
+        popup.scrollIntoView()
+    }, 50)
     const body = document.getElementsByTagName('body')[0];
     body.classList.add('stop_scroll')
 }
@@ -94,7 +98,7 @@ window.onload = () => {
     const project_2 = document.getElementById('project_2');
     project_2.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-            popup.src = 'images/sample2.png'    // 원하는 이미지 명을 넣으면 됩니다
+        popup.src = 'images/sample2.png'    // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
     const project_3 = document.getElementById('project_3');
