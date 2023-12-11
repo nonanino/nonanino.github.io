@@ -693,6 +693,23 @@ button:focus{
     /* object-fit: none; */
 }
 
+.popup::-webkit-scrollbar {
+    width: 10px;
+}
+
+.popup::-webkit-scrollbar-thumb {
+    background-color: #2f3542;  /* 막대 색깔 */
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.popup::-webkit-scrollbar-track {
+    background-color: gray;     /* 막대 배경 색깔 */
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
 .stop_scroll {
     overflow: hidden;
 }
