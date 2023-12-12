@@ -413,7 +413,7 @@ button:focus{
 
 .project{
     position: relative;
-    border-radius: 8px;
+    border-radius: 2px;
     overflow: hidden;
 }
 
