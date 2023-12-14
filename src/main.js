@@ -137,4 +137,12 @@ window.onload = () => {
         popup.src = 'images/sample.png'         // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
+
+    const project_9 = document.getElementById('project_9');
+    project_9.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/sample.png'        // 원하는 이미지 명을 넣으면 됩니다
+        openPopup();
+    })
 }
+
