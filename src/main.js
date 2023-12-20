@@ -128,7 +128,7 @@ window.onload = () => {
     const project_7 = document.getElementById('project_7');
     project_7.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'         // 원하는 이미지 명을 넣으면 됩니다
+        popup.src = 'images/port/table.jpg'         // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
     const project_8 = document.getElementById('project_8');
