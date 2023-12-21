@@ -148,7 +148,7 @@ window.onload = () => {
     const project_10 = document.getElementById('project_10');
     project_10.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'        // 원하는 이미지 명을 넣으면 됩니다
+        popup.src = 'images/port/se.png'        // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
 
@@ -169,14 +169,14 @@ window.onload = () => {
     const project_13 = document.getElementById('project_13');
     project_13.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'        // 원하는 이미지 명을 넣으면 됩니다
+        popup.src = 'images/port/군포.jpg'        // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
 
     const project_14 = document.getElementById('project_14');
     project_14.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'        // 원하는 이미지 명을 넣으면 됩니다
+        popup.src = 'images/port/창업.png'        // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
 
@@ -197,7 +197,7 @@ window.onload = () => {
     const project_17 = document.getElementById('project_17');
     project_17.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/sample.png'        // 원하는 이미지 명을 넣으면 됩니다
+        popup.src = 'images/port/강동.jpg'        // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
 
