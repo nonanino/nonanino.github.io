@@ -122,7 +122,7 @@ window.onload = () => {
     const project_6 = document.getElementById('project_6');
     project_6.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
-        popup.src = 'images/work/manna_thum.jpg'         // 원하는 이미지 명을 넣으면 됩니다
+        popup.src = 'images/work/acryl.png'         // 원하는 이미지 명을 넣으면 됩니다
         openPopup();
     })
     const project_7 = document.getElementById('project_7');
