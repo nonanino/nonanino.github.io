@@ -16,8 +16,8 @@
     /* Colors */
     --color-white: #ffffff;
     --color-black: #050a13;
-    --color-blue: #03e8f9;
-    --color-orange: #fd6413;
+    --color-blue: #00eeff;
+    --color-orange: #ff7023;
     --color-gray: #22252e;
 
     /* size */
@@ -159,7 +159,8 @@ button:focus{
     position: relative;
     background-color: var(--color-primary);
     background: black;
-    /* background-image: url(/images/home.jpg); */
+    background-image: url(/images/home.png);
+    background-repeat: no-repeat;
     color: var(--color-text);
     padding: 8rem 1rem;
     padding-top: 4rem;
