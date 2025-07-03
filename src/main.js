@@ -88,6 +88,13 @@ window.onload = () => {
         closePopup();
     })
 
+    const project_20 = document.getElementById('project_20');
+    project_20.addEventListener('click', () => {
+        const popup = document.getElementById('popup_img');
+        popup.src = 'images/work/SOLMate_page.jpg'       // 원하는 이미지 명을 넣으면 됩니다
+        openPopup();
+    })
+
     const project_1 = document.getElementById('project_1');
     project_1.addEventListener('click', () => {
         const popup = document.getElementById('popup_img');
